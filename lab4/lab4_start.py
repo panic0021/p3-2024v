@@ -123,7 +123,7 @@ def mean_median_diff(n,k,iterations=10):
     from random import seed,randint
     from statistics import mean,median
 
-    seed(1)
+    seed(4)
     diffs=[]
     for _ in range(iterations):
         random_numbers=[]
@@ -136,7 +136,7 @@ def mean_median_diff(n,k,iterations=10):
     
 
 #%%
-mean_median_diff(10000, 2500)
+#mean_median_diff(10000, 2500)
 
 
 #%%
