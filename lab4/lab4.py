@@ -165,8 +165,7 @@ def mean_median_diff(n, k, iterations=10):
 
 
 #%%
-mean_median_diff(100, 250, iterations=20)
-
+ 
 
 #%%
 #Zadatak 5
@@ -211,3 +210,5 @@ def sum_of_sums(*numbers, n=10):
 #%%
 print(sum_of_sums(1,3,5,7,9,11,13, n=7))
 
+
+# %%

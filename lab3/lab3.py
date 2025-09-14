@@ -65,7 +65,9 @@ print(string_stats("Today is October 22, 2024!"))
 #%%
 # Zadatak 4
 def password_check(passwords_to_verify):
-    validity_check_dict = defaultdict(list)
+    #from collections import defaultdict
+
+    validity_check_dict = dict(list)
     for pass_candidate in [p.strip() for p in passwords_to_verify.split(",")]:
         if len(pass_candidate) < 6 or len(pass_candidate) > 12:
             validity_check_dict[pass_candidate].append("inadequate length")
