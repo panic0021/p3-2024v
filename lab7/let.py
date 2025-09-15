@@ -1,6 +1,6 @@
-from lab6.putnik import Putnik
-from lab6.kategorije_putnika import PutnikEkonomskeKlase, PutnikBiznisKlase
-from lab6.flight_enum import UslugaNaLetu
+from putnik import Putnik
+from kategorije_putnika import PutnikEkonomskeKlase, PutnikBiznisKlase
+from flight_enum import UslugaNaLetu
 from datetime import datetime
 from sys import stderr
 
